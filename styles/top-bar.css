@@ -1,0 +1,33 @@
+.top-bar-panel {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #161616;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.top-bar-item {
+  font-family: Hack Regular;
+  font-size: 20px;
+  padding: 15px 10px;
+  color: #ffffff;
+  background-color: #161616;
+  border: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-bar-item:hover {
+  background-color: #262626;
+}
+
+.top-bar-panel span {
+  margin-left: auto;
+}
+
+.top-bar-separator {
+  font-size: 20px;
+  padding: 9px;
+}

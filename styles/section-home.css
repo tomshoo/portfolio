@@ -1,0 +1,20 @@
+.home-section h1,
+h2,
+h3 {
+  font-family: Bungee Shade;
+  color: #262626;
+}
+
+.home-section p {
+  font-family: Hack Regular;
+  font-size: 20px;
+}
+
+.home-section h2 {
+  margin: 5px;
+}
+
+.home-section h3 {
+  margin: 5px;
+  margin-bottom: 2em;
+}

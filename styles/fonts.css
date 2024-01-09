@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Hack Regular";
+  src: url(../fonts/Hack-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Hack Bold";
+  src: url(../fonts/Hack-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Hack Italic";
+  src: url(../fonts/Hack-Italic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Hack Bold Italic";
+  src: url(../fonts/Hack-BoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Bungee Shade";
+  src: url(../fonts/BungeeShade-Regular.ttf) format("truetype");
+}
