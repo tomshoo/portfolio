@@ -3,12 +3,28 @@
 <head>
   <meta charset="utf-8" />
   <title>Shubhanshu Tomar</title>
+  <script type="module" src="scripts/index.js"></script>
+  <script
+    src="https://kit.fontawesome.com/31678ad271.js"
+    crossorigin="anonymous"
+  ></script>
   <link rel="stylesheet" href="styles/fonts.css" />
   <link rel="stylesheet" href="styles/top-bar.css" />
   <link rel="stylesheet" href="styles/section-home.css" />
+  <link rel="stylesheet" href="styles/section-about.css" />
 </head>
 
-<body style="background-color: #f4f4f4; text-align: center">
+<body style="background-color: #f4f4f4">
+  <style>
+    * {
+      font-family: Hack Regular;
+    }
+
+    .fader {
+      opacity: 0.01;
+    }
+  </style>
+
   <div class="top-bar-panel">
     <a class="top-bar-item" href="#about">About Me</a>
     <a class="top-bar-item" href="#contacts">Contacts</a>
@@ -16,14 +32,18 @@
     <span></span>
     <a class="top-bar-item" href="#home">Home</a>
   </div>
-  <div class="top-bar-separator">_</div>
-  <section class="home-section" id="home">
-    <h1 style="font-size: 20em">HELLO</h1>
-    <h2 style="font-size: 10em">SHUBHANSHU</h2>
-    <h3 style="font-size: 5em">THIS SIDE</h3>
 
-    <p>
-      Hi all,<br />
+  <div class="top-bar-separator">_</div>
+
+  <section class="home-section" id="home" style="text-align: center">
+    <h1 style="font-size: 20em">HELLO</h1>
+    <div class="fader">
+      <h2 style="font-size: 10em">SHUBHANSHU</h2>
+      <h3 style="font-size: 5em">THIS SIDE</h3>
+    </div>
+
+    <p class="fader">
+      <u>Hi all,</u> <br />
       I am no front-end developer by any means, and this was one of my <br />
       finest attempts at a web based portfolio. <br /><br />
 
@@ -32,11 +52,34 @@
       top right corner.
     </p>
   </section>
+
+  <section class="about-section" id="about">
+    <h1 class="about-section-item" style="align-self: flex-start">ABOUT ME</h1>
+    <p class="about-section-item">
+      I am Shubhanshu Tomar, a final year student at IKGPTU Kapurthala I like to
+      work and tinker along with computers, to learn how they work and grow my
+      knowledge from it. I love designing systems, and having fun understanding
+      how computers <em>*talk*</em>. <br /><br />
+
+      I am a sucker for sci-fi art and, games, as such media can often help us
+      in growing our own thoughts and imaginations, allowing us to improve our
+      points of view, helping us in doing better things in even better ways.
+      <br /><br />
+
+      Also, I am a Linux nerd.
+    </p>
+
+    <span
+      class="fa-solid fa-mug-hot"
+      style="font-size: 15em; align-self: baseline"
+    ></span>
+  </section>
+
   <br />
   <footer>
-    <i>
-      Note that this site is still in the making so some buttons might <br />
-      not work so save your clicks.
-    </i>
+    <em>
+      Note that this site is still in the making so some buttons might not work
+      so save your clicks.
+    </em>
   </footer>
 </body>

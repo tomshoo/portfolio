@@ -15,8 +15,6 @@
   color: #ffffff;
   background-color: #161616;
   border: 0;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .top-bar-item:hover {

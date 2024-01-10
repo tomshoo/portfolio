@@ -1,0 +1,38 @@
+@keyframes cursor-blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.about-section {
+  margin: 10em;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  column-gap: 20em;
+  justify-content: space-between;
+}
+
+.about-section-item {
+  margin-top: 0;
+  align-self: flex-start;
+}
+
+.about-section h1 {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.about-section h1::after {
+  background-color: #262626;
+  margin-bottom: 5px;
+  width: 15px;
+  height: 20px;
+  content: "";
+  display: inline-block;
+  animation: cursor-blink 1s steps(2) infinite;
+}
