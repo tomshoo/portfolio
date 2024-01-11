@@ -1,0 +1,28 @@
+.note-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: row;
+}
+
+.note-footer span {
+  margin: auto;
+}
+
+.note-footer p {
+  padding: 0;
+  margin: 0;
+}
+
+.note-footer a {
+  text-decoration: none;
+  padding: 5px 5px;
+  background-color: #1192e8;
+  color: #ffffff;
+  border: 0;
+}
